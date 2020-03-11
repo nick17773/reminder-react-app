@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './b612/b612-regular-webfont.woff2'
-import './b612/b612-regular-webfont.woff'
+import './b612-regular-webfont.woff2'
+import './b612-regular-webfont.woff'
 import './index.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
