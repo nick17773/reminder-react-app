@@ -1,0 +1,42 @@
+
+.App
+{
+    color: black;
+    text-align: center;
+    font-family: 'b612regular'
+    
+}
+
+@font-face {
+    font-family: 'b612regular';
+    src: url('b612/b612-regular-webfont.woff2') format('woff2'),
+         url('b612/b612-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.theList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.theList li {
+    
+    color: #333;
+    background-color: rgba(0, 0, 0, .25);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+}
+ul.theList {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
